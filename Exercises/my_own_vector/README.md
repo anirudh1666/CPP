@@ -1,0 +1,1 @@
+"This project involves defining my own Vector-like data type. The operations that are defined on "Vec" are 1) Init empty vec.\n2) Init vec with size n.\n3) Obtain iterators and size_types.\n4) Can use index and size().\n5) Get iterators to first and 1 past the end." 
