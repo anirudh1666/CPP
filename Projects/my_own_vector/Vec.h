@@ -29,6 +29,7 @@ template <class T> class Vec {
 		// If t is not supplied use default constructor for that type.
 		explicit Vec(size_type n, const T& t = T()) { create(n, t);}
 		Vec(const Vec& v) { create(v.begin(), v.end()); }
+		~Vec() { uncreate(); }
 		
 		// Operator definitions.
 		// Left type is lhs and (param) is the rhs.

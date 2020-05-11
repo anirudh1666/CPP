@@ -32,6 +32,8 @@ template <class T> class MyList {
 		
 		MyList& operator=(const MyList&);
 		
+		~MyList() { uncreate(); }
+		
 		// Iterator members.
 		iterator get_front() { return front; }
 		const_iterator get_front() const { return front; }
