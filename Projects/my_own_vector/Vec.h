@@ -3,6 +3,9 @@
    Accelerated C++, Chapter 11.
 */
 
+#ifndef GUARD_Vec_h
+#define GUARD_Vec_h
+
 #include <iostream>
 #include <memory>
 
@@ -20,7 +23,9 @@ template <class T> class Vec {
 		// Constructors.
 		Vec() { create(); }
 		
-		// explicit means you have to call constructor explicitly.
+		// explicit means you have to use Vec object explicitly.
+		// doesnt allow the compiler to implicitly convert other types to
+		// class type Vec.
 		// If t is not supplied use default constructor for that type.
 		explicit Vec(size_type n, const T& t = T()) { create(n, t);}
 		Vec(const Vec& v) { create(v.begin(), v.end()); }
@@ -135,3 +140,16 @@ void Vec<T>::unchecked_append(const T& val) {
 	
 	alloc.construct(avail++, val);
 }
+
+template <class T>
+Vec<T>& Vec<T>::operator=(const Vec& rhs) {
+	
+	if (&rhs != this) {
+		uncreate();
+		create(rhs.begin(), rhs.end());
+	}
+	
+	return *this;
+}
+
+#endif
