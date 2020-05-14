@@ -46,6 +46,12 @@ template <class T> class Vec {
 			unchecked_append(t);
 		}
 		
+		void erase(iterator);
+		void erase(iterator, iterator);
+		
+		void clear();
+		
+		
 		size_type size() const { return avail - start; }
 		
 		iterator begin() { return start; }
@@ -117,6 +123,54 @@ void Vec<T>::uncreate() {
 	
 	start = limit = avail = 0;
 }
+
+
+/* My own function. Removes element that it
+   points to.
+*/ 
+template <class T>
+void Vec<T>::erase(iterator it) {
+	
+	iterator behind = it;
+	it++;
+
+	while (it != avail) {
+		*behind++ = *it++;
+	}
+	*behind = 0;
+	avail--;
+}
+
+
+template <class T>
+void Vec<T>::erase(iterator start, iterator end) {
+	
+	size_type size = end - start;
+	iterator behind = start;
+	
+	while (end != avail) {
+		*behind++ = *end++;
+	}
+	*behind = 0;
+	avail = avail - size;
+}
+
+template <class T>
+void Vec<T>::clear() {
+	
+	if (start) {
+		iterator it = avail;
+		
+		while (it != start) {
+			alloc.destroy(--it);
+		}
+		
+		alloc.destroy(it);
+	}	
+	
+	avail = start;
+}
+
 
 template <class T>
 void Vec<T>::grow() {
