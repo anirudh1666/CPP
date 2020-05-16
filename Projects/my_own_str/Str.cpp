@@ -1,39 +1,48 @@
 #include "Str.h"
 
-using std::istream;               using std::ostream;
-using std::isspace;
-
-
-ostream& operator<<(ostream& os, const Str& s) {
+void Str::create(size_type size, const char c) {
 	
-	for (Str::size_type i = 0; i != s.size(); ++i)
-		os << s[i];
-	return os;
+	start = alloc.allocate(size + 1);
+	length = size;
+	uninitialized_fill(start, start + size, c);
+	alloc.construct(start + size, '\0');
 }
 
-istream& operator>>(istream& is, Str& s) {
+void Str::uncreate() {
 	
-	s.data.clear();
-	
-	char c;
-	while (is.get(c) && isspace(c)))
-		;
-	
-	// if there is character or ran out of input.
-	if (is) {
-		do s.data.push_back(c);
-		while (is.get(c) && !isspace(c));
+	if (start) {
+		iterator it = start + length;
+		while (it != start)
+			alloc.destroy(--it);
 		
-		if (is)
-			is.unget();
+		alloc.deallocate(start, 1 + length);
+	}
+}
+
+// increase space.
+// then concat.
+Str& Str::operator+=(const Str& s) {
+	
+	size_type str_size = s.size();
+	iterator new_start = alloc.allocate(length + str_size + 1);
+	iterator end_of_first = new_start + length - 1;
+
+	uninitialized_copy(start, start + length - 1, new_start);
+	uninitialized_copy(s.begin(), s.end(), end_of_first);
+	
+	uncreate();
+	
+	start = new_start;
+	length = str_size + length;
+}
+	
+Str& Str::operator=(const Str& str) {
+	
+	if (&str != this) {
+		uncreate();
+		create(str.begin(), str.end());
 	}
 	
-	return is;
+	return *this;
 }
 
-Str operator+(const Str& s, const Str& t) {
-	
-	Str r = s;
-	r += t;
-	return r;
-}

@@ -1,63 +1,83 @@
+/* My own implementation of string class using array of chars.
+   Done as an exercise from Chapter 12 of Accelerated C++.
+*/
+
 #ifndef GUARD_Str_h
 #define GUARD_Str_h
 
 #include <iostream>
 #include <algorithm>
+#include <memory>
 #include <cstring>
-#include <cctype>
-#include "Vec.h"
+
+
+using std::allocator;               using std::uninitialized_fill;
+using std::uninitialized_copy;      using std::strlen;
 
 class Str {
 	
-	friend std::istream& operator>>(std::istream&, Str&);
-	
 	public:
-		typedef Vec<char>::size_type size_type;
+		typedef char* iterator;
+		typedef const char* const_iterator;
+		typedef size_t size_type;
 		
-		// Constructors
-		Str() { }
+		// Constructors.
+		Str() { create(0, '\0'); }
+		Str(size_type n, const char c) { create(n, c); }
+	
+		Str(const char* c) { create(c, c + strlen(c)); }
+		Str(const Str& s) { create(s.begin(), s.end()); }
 		
-		// : is accepted way of initializing constructors.
-		// Also allows const values to be initialized.
-		Str(size_type n, char c): data(n, c) { }
+		template <class In>
+		Str(In begin, In end) { create(begin, end); }
 		
-		// String literal = const char*.
-		// conversion constructor. Converts string literals to Str.
-		Str(const char* cp) {
-			
-			std::copy(cp, cp + std::strlen(cp), std::back_inserter(data));
-		}
+		// Destructor.
+		~Str() { uncreate(); }
 		
-		template<class In> Str(In b, In e) {
-			
-			std::copy(b, e, std::back_inserter(data));
-		}
+		// Members.
+		size_type size() const { return length; }
 		
-		// Member functions.
-		size_type size() const { return data.size(); }
+		// Operators.
+		Str& operator=(const Str&);
+	
+		char& operator[](size_type i) { return start[i]; }
+		const char& operator[](size_type i) const { return start[i]; }
 		
-		// Overloaded operators.
-		char& operator[](size_type i) { return data[i];}
-		const char& operator[](size_type i) { return data[i]; }
-
-		Str& operator+=(const Str& s) {
-			
-			std::copy(s.data.begin(), s.data.end(), std::back_inserter(data));
-			return *this;
-		}
+		Str& operator+=(const Str&);
 		
-			
+		// Iterators.
+		iterator begin() { return start; }
+		const_iterator begin() const { return start; }
+		
+		iterator end() { return start + length + 1; }
+		const_iterator end() const { return start + length + 1; }
+	
 	private:
-		Vec<char> data;
+		iterator start;
+		// Length doesn't include null terminator.
+		size_type length;
+		
+		allocator<char> alloc;
+		
+		void create();
+		void create(size_type, const char);
+		
+		template <class In>
+		void create(In, In);
+		
+		void uncreate();
+		
 };
 
-// Non-member operators.
-std::istream& operator>>(std::istream&, Str&);
-std::ostream& operator<<(std::ostream&, const Str&);
 
-Str operator+(const Str&, const Str&);
-
+template <class In>
+void Str::create(In begin, In end) {
+	
+	length = end - begin;
+	start = alloc.allocate(length + 1);
+	uninitialized_copy(begin, end, start);
+	alloc.construct(start + length, '\0');
+}
 
 
 #endif
-
