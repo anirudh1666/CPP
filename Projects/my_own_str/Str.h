@@ -9,10 +9,14 @@
 #include <algorithm>
 #include <memory>
 #include <cstring>
-
+#include <vector>
+#include <iterator>
 
 using std::allocator;               using std::uninitialized_fill;
 using std::uninitialized_copy;      using std::strlen;
+using std::string;                  using std::strcmp;
+using std::istream;                 using std::vector;
+using std::ostream;                 using std::ostream_iterator;
 
 class Str {
 	
@@ -37,13 +41,19 @@ class Str {
 		// Members.
 		size_type size() const { return length; }
 		
+		// Same thing as data().
+		const char* c_str() const { return start; } 
+		
+		Str copy(char*, char*) const;
+		
 		// Operators.
 		Str& operator=(const Str&);
+		Str& operator+=(const Str&);
 	
 		char& operator[](size_type i) { return start[i]; }
 		const char& operator[](size_type i) const { return start[i]; }
 		
-		Str& operator+=(const Str&);
+		
 		
 		// Iterators.
 		iterator begin() { return start; }
@@ -68,6 +78,59 @@ class Str {
 		void uncreate();
 		
 };
+
+ostream& operator<<(ostream& out, const Str& str) {
+	
+	ostream_iterator<string> iter(out, "\n");
+	const char* temp = str.c_str();
+	string output(temp);
+	*iter++ = output;
+}
+
+inline bool operator<(const Str& lhs, const Str& rhs) {
+	
+	return (strcmp(lhs.c_str(), rhs.c_str()) < 0);
+}
+
+
+inline bool operator<=(const Str& lhs, const Str& rhs) {
+	
+	return (strcmp(lhs.c_str(), rhs.c_str()) <= 0);
+}
+
+inline bool operator>(const Str& lhs, const Str& rhs) {
+	
+	return (strcmp(lhs.c_str(), rhs.c_str()) > 0);
+}
+
+inline bool operator>=(const Str& lhs, const Str& rhs) {
+	
+	return (strcmp(lhs.c_str(), rhs.c_str()) <= 0); 
+}
+
+
+
+istream& getline(istream& is, Str& str) {
+	
+	vector<char> characters;
+	char in;
+	
+	while (is.get(in) && isspace(in))
+		;
+	
+	if (is) {
+		do characters.push_back(in);
+		while (is.get(in) && in != '\n');
+		if (is)
+			is.unget();
+	}
+	
+	Str ret(characters.begin(), characters.end());
+	str = ret;
+	
+	is.clear();
+	return is;
+}
 
 
 template <class In>

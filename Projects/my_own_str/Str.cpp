@@ -19,6 +19,14 @@ void Str::uncreate() {
 	}
 }
 
+
+// Not the same as string::copy.
+Str Str::copy(char* start, char* end) const {
+	
+	Str ret(start, start + length);
+	return ret;
+}
+
 // increase space.
 // then concat.
 Str& Str::operator+=(const Str& s) {
@@ -45,4 +53,5 @@ Str& Str::operator=(const Str& str) {
 	
 	return *this;
 }
+
 
