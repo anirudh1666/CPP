@@ -1,0 +1,660 @@
+﻿  Inventory.cpp
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C2653: 'Item': is not a class or namespace name
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,16): error C2065: 'Item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,9): error C2365: '{ctor}': redefinition; previous definition was 'function'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14): message : see declaration of '{ctor}'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,21): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,7): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,11): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,32): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C2143: syntax error: missing ';' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C2270: '*': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C2143: syntax error: missing ';' before '*'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C2270: '->': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C2146: syntax error: missing ';' before identifier 'name'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C2270: 'name': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C2086: 'int string': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C2146: syntax error: missing ';' before identifier 'barcode'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C2270: 'barcode': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,34): error C2270: 'price': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,18): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,31): error C2270: 'stock': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(35,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,1): error C2144: syntax error: 'void' should be preceded by ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(37,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(38,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,12): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C2146: syntax error: missing ';' before identifier 'search'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,33): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,17): error C2760: syntax error: unexpected token 'delete', expected 'id-expression'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,23): error C2062: type 'unknown-type' unexpected
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,45): error C2270: 'display': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,36): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(3,41): error C2874: using-declaration causes a multiple declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(12,46): error C2969: syntax error: ';': expected member function definition to end with '}'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(19,13): error C3646: 'search': unknown override specifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(19,13): error C2059: syntax error: '('
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(19,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(21,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(21,21): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(22,7): error C2059: syntax error: 'delete'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(22,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(27,2): error C2923: 'std::map': 'string' is not a valid template type argument for parameter '_Kty'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(27,2): error C2976: 'std::map': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\map(75): message : see declaration of 'std::map'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(12,29): error C2923: 'std::map': 'string' is not a valid template type argument for parameter '_Kty'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(12,29): error C2976: 'std::map': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\map(75): message : see declaration of 'std::map'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(12,13): error C2512: 'std::map': no appropriate default constructor available
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(31,6): error C2222: unexpected type 'void': a base-class or member was expected
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(31,20): error C2061: syntax error: identifier 'add'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(31,39): error C2630: ';' found in what should be a comma-separated list
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(33,9): error C2065: 'item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(33,6): error C2079: 'p' uses undefined class 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(34,29): error C2065: 'item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(34,19): error C2672: 'std::make_pair': no matching overloaded function found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(34,11): error C2663: 'std::_Tree<_Traits>::insert': 3 overloads have no legal conversion for 'this' pointer
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(37,38): error C2511: 'void Inventory::display(std::ostream &)': overloaded member function not found in 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(9): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(39,12): error C2923: 'std::map': 'string' is not a valid template type argument for parameter '_Kty'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(39,12): error C2976: 'std::map': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\map(75): message : see declaration of 'std::map'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(39,30): error C2955: 'std::map': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\map(75): message : see declaration of 'std::map'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(41,30): error C3861: 'print_item': identifier not found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Inventory.cpp(41,60): error C2065: 'endl': undeclared identifier
+  main.cpp
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C2653: 'Item': is not a class or namespace name
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,16): error C2065: 'Item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,9): error C2365: '{ctor}': redefinition; previous definition was 'function'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14): message : see declaration of '{ctor}'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,21): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,7): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,11): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,32): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C2143: syntax error: missing ';' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C2270: '*': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C2143: syntax error: missing ';' before '*'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C2270: '->': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C2146: syntax error: missing ';' before identifier 'name'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C2270: 'name': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C2086: 'int string': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C2146: syntax error: missing ';' before identifier 'barcode'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C2270: 'barcode': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,34): error C2270: 'price': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,18): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,31): error C2270: 'stock': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(35,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,1): error C2144: syntax error: 'void' should be preceded by ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(37,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(38,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,12): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C2146: syntax error: missing ';' before identifier 'search'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,33): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,17): error C2760: syntax error: unexpected token 'delete', expected 'id-expression'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,23): error C2062: type 'unknown-type' unexpected
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,45): error C2270: 'display': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,36): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(16,7): error C2146: syntax error: missing ';' before identifier 'sample_1'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(16,7): error C3861: 'sample_1': identifier not found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(17,7): error C2146: syntax error: missing ';' before identifier 'sample_2'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(17,7): error C3861: 'sample_2': identifier not found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(18,7): error C2146: syntax error: missing ';' before identifier 'sample_3'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(18,7): error C3861: 'sample_3': identifier not found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(20,7): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(20,12): error C2065: 'sample_1': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(21,7): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(21,12): error C2065: 'sample_2': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(22,7): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(22,12): error C2065: 'sample_3': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(25,28): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(25,28): error C2079: 'init_inventory' uses undefined class 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(25,11): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(27,12): error C2079: 'ret' uses undefined class 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(28,15): error C2664: 'void init_data(Inventory &)': cannot convert argument 1 from 'int' to 'Inventory &'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(14,6): message : see declaration of 'init_data'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(37,12): error C2079: 'inventory' uses undefined class 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(37,24): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(37,22): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(53,11): error C3861: 'search_for_item': identifier not found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(55,11): error C3861: 'add_item': identifier not found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(57,11): error C3861: 'delete_item': identifier not found
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\main.cpp(59,11): error C3861: 'display_inventory': identifier not found
+  Ptr.cpp
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C2653: 'Item': is not a class or namespace name
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,16): error C2065: 'Item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,9): error C2365: '{ctor}': redefinition; previous definition was 'function'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14): message : see declaration of '{ctor}'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,21): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,7): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,11): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,32): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C2143: syntax error: missing ';' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C2270: '*': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C2143: syntax error: missing ';' before '*'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C2270: '->': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C2146: syntax error: missing ';' before identifier 'name'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C2270: 'name': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C2086: 'int string': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C2146: syntax error: missing ';' before identifier 'barcode'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C2270: 'barcode': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,34): error C2270: 'price': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,18): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,31): error C2270: 'stock': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(35,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,1): error C2144: syntax error: 'void' should be preceded by ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(37,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(38,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,12): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C2146: syntax error: missing ';' before identifier 'search'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,33): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,17): error C2760: syntax error: unexpected token 'delete', expected 'id-expression'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,23): error C2062: type 'unknown-type' unexpected
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,45): error C2270: 'display': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,36): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(14,16): error C2061: syntax error: identifier 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(14,16): error C2535: 'Ptr::Ptr(void)': member function already defined or declared
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(11): message : see declaration of 'Ptr::Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(30,6): error C2143: syntax error: missing ';' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(30,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(30,26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(38,6): error C2143: syntax error: missing ';' before '*'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(38,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(38,27): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(47,6): error C2143: syntax error: missing ';' before '*'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(47,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(47,9): error C2238: unexpected token(s) preceding ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(11,32): error C2614: 'Ptr': illegal member initialization: 'p' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(14,43): error C2065: 'item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(14,41): error C2614: 'Ptr': illegal member initialization: 'p' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(16,19): error C2039: 'p': is not a member of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(7): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(16,39): error C2614: 'Ptr': illegal member initialization: 'p' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(28,33): error C2065: 'p': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(59,10): error C2065: 'p': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(59,11): error C2541: 'delete': cannot delete objects that are not pointers
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(63,2): error C2065: 'p': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(63,11): error C2039: 'p': is not a member of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(7): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(73,10): error C2065: 'p': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Ptr.cpp(73,11): error C2541: 'delete': cannot delete objects that are not pointers
+  tests.cpp
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C2653: 'Item': is not a class or namespace name
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,16): error C2065: 'Item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(15,9): error C2365: '{ctor}': redefinition; previous definition was 'function'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(14): message : see declaration of '{ctor}'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,21): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,24): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(16,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,7): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(18,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,11): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,32): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(20,35): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C2143: syntax error: missing ';' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C2270: '*': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C2143: syntax error: missing ';' before '*'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C2270: '->': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(22,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(28,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,25): error C2146: syntax error: missing ';' before identifier 'name'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C2270: 'name': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,8): error C2086: 'int string': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,28): error C2146: syntax error: missing ';' before identifier 'barcode'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C2270: 'barcode': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(31,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(32,34): error C2270: 'price': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,18): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(33,31): error C2270: 'stock': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(35,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,1): error C2144: syntax error: 'void' should be preceded by ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(36,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(37,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(38,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,12): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(44,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(45,23): error C2146: syntax error: missing ';' before identifier 'search'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,33): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(47,37): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,17): error C2760: syntax error: unexpected token 'delete', expected 'id-expression'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(48,23): error C2062: type 'unknown-type' unexpected
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(49,45): error C2270: 'display': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,36): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(53,45): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\tests.cpp(9,7): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory_Program\Declarations.h(43): message : see declaration of 'Inventory'
+  Item.cpp
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(14,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(14,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(15,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(15,20): error C2653: 'Item': is not a class or namespace name
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(15,16): error C2065: 'Item': undeclared identifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(15,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(15,9): error C2365: '{ctor}': redefinition; previous definition was 'function'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(14): message : see declaration of '{ctor}'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(16,6): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(16,21): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(16,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(16,24): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(16,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(18,7): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(18,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(20,11): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(20,32): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(20,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(20,35): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(21,5): error C2143: syntax error: missing ';' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(21,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(21,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(21,29): error C2270: '*': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(21,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(22,5): error C2143: syntax error: missing ';' before '*'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(22,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(22,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(22,12): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(22,30): error C2270: '->': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(22,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(27,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(28,7): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(28,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30,25): error C2146: syntax error: missing ';' before identifier 'name'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30,33): error C2270: 'name': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(31,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(31,8): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(31,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(31,8): error C2086: 'int string': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(31,28): error C2146: syntax error: missing ';' before identifier 'barcode'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(31,36): error C2270: 'barcode': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(31,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(32,21): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(32,34): error C2270: 'price': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(33,18): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(33,31): error C2270: 'stock': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(35,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(36,1): error C2144: syntax error: 'void' should be preceded by ';'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(36,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(37,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(38,19): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(44,12): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(44,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(45,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(45,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(45,1): error C2086: 'int Item': redefinition
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(21): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(45,23): error C2146: syntax error: missing ';' before identifier 'search'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(47,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(47,33): error C2027: use of undefined type 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(26): message : see declaration of 'Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(47,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(47,37): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(48,17): error C2760: syntax error: unexpected token 'delete', expected 'id-expression'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(48,23): error C2062: type 'unknown-type' unexpected
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(49,17): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(49,45): error C2270: 'display': modifiers not allowed on nonmember functions
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(53,36): error C2027: use of undefined type 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(43): message : see declaration of 'Inventory'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(53,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(53,45): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(3,12): error C2874: using-declaration causes a multiple declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(30): message : see declaration of 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(14,14): error C2061: syntax error: identifier 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(14,14): error C2535: 'Item::Item(void)': member function already defined or declared
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(11): message : see declaration of 'Item::Item'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(22,20): error C3646: 'name': unknown override specifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(22,21): error C2059: syntax error: ')'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(22,29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(23,23): error C3646: 'barcode': unknown override specifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(23,24): error C2059: syntax error: ')'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(23,32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(27,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(27,35): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(28,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(28,38): error C2143: syntax error: missing ',' before '&'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(34,13): error C3646: 'name': unknown override specifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(34,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(35,16): error C3646: 'barcode': unknown override specifier
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(35,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(36,9): error C2365: 'Item::price': redefinition; previous definition was 'member function'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(24): message : see declaration of 'Item::price'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(37,6): error C2365: 'Item::stock': redefinition; previous definition was 'member function'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(25): message : see declaration of 'Item::stock'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(11,8): error C2061: syntax error: identifier 'string'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(11,10): error C2614: 'Item': illegal member initialization: 'name' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(11,28): error C2614: 'Item': illegal member initialization: 'barcode' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(12,1): error C2436: 'price': member function or nested class in constructor initializer list
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(12,15): error C2614: 'Item': illegal member initialization: 'no_in_stock' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(16,1): error C3867: 'Item::price': non-standard syntax; use '&' to create a pointer to member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(16,1): error C3867: 'Item::stock': non-standard syntax; use '&' to create a pointer to member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(15,16): error C2614: 'Item': illegal member initialization: 'name' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(15,28): error C2614: 'Item': illegal member initialization: 'barcode' is not a base or member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(16,1): error C2436: 'price': member function or nested class in constructor initializer list
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(16,1): error C2436: 'stock': member function or nested class in constructor initializer list
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(24,30): error C3867: 'Item::price': non-standard syntax; use '&' to create a pointer to member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(24,30): error C2440: 'return': cannot convert from 'double (__thiscall Item::* )(void) const' to 'double'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(24,39): message : There is no context in which this conversion is possible
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(25,27): error C3867: 'Item::stock': non-standard syntax; use '&' to create a pointer to member
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(25,27): error C2440: 'return': cannot convert from 'int (__thiscall Item::* )(void) const' to 'int'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(25,36): message : There is no context in which this conversion is possible
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(27,50): error C2659: '=': function as left operand
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(28,59): error C2659: '=': function as left operand
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(29,46): error C3892: 'price': you cannot assign to a variable that is const
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(30,46): error C3892: 'stock': you cannot assign to a variable that is const
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(43,9): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(43,30): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(44,7): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Item.cpp(44,29): error C2027: use of undefined type 'Ptr'
+C:\Users\aniru\OneDrive\Documents\C++Git\Projects\Inventory\InventoryProgram\InventoryProgram\Declarations.h(13): message : see declaration of 'Ptr'
+  Generating Code...

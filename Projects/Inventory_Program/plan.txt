@@ -1,0 +1,71 @@
+Plan
+====
+
+	Requirements
+ 	============
+	Manage inventory for a small business. Should be possible to at least enter an item
+	(name, barcode, price), record number in stock, update the number in stock, search for item,
+        produce a report of all items in stock and delete an item.
+
+	Data should be able to be stored as well. Try and use JSON or CSV format.
+
+
+	Classes
+        =======
+    
+        	Item 
+ 		----
+		private string name
+		private string barcode
+		private double price
+		private int stock_num
+
+		need public getter/setter members.
+		No other members needed.
+
+		Inventory
+		---------
+		map<key, *item_ptr>
+
+		needs searching, add, delete, update and list items members.
+		needs read/write data to files in JSON format.
+	
+		
+		Ptr
+		---
+		Use the item_ptr class adapted from Accelerated C++.
+		Needs to manage memory itself.
+
+
+		Interface
+		---------
+		holds inventory object.
+		Used to hide implementation from user.
+
+
+	Files
+	=====
+
+	Header file that contains definitions for items, inventory and interface.
+	Also contains declarations for utility functions.
+	Ptr header file.
+	Test functions file
+	Utility functions file too.
+
+
+void welcome_message();
+void init_data(Inventory&);
+Inventory init_inventory();
+void run();
+
+
+
+TODO:
+Finish Item
+""     Inventory.
+add tests
+
+
+
+COMPLETED:
+Ptr class
