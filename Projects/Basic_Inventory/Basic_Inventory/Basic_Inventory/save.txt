@@ -1,0 +1,48 @@
+{
+	"chocolate" : 
+	{
+		"barcode" : "758604",
+		"name" : "chocolate",
+		"price" : 1.0,
+		"stock" : 53
+	}
+}
+{
+	"chocolate" : 
+	{
+		"barcode" : "758604",
+		"name" : "chocolate",
+		"price" : 1.0,
+		"stock" : 53
+	},
+	"milk" : 
+	{
+		"barcode" : "210392",
+		"name" : "milk",
+		"price" : 1.5,
+		"stock" : 32
+	}
+}
+{
+	"chocolate" : 
+	{
+		"barcode" : "758604",
+		"name" : "chocolate",
+		"price" : 1.0,
+		"stock" : 53
+	},
+	"milk" : 
+	{
+		"barcode" : "210392",
+		"name" : "milk",
+		"price" : 1.5,
+		"stock" : 32
+	},
+	"socks" : 
+	{
+		"barcode" : "5781032",
+		"name" : "socks",
+		"price" : 3.0,
+		"stock" : 12
+	}
+}
