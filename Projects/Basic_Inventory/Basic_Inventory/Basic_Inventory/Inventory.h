@@ -34,6 +34,8 @@ public:
 	void add(const Item&);
 	void remove(const std::string&);
 	void save(std::ofstream&) const;
+	void load(std::ifstream&);
+	void empty();
 
 private:
 	std::map<std::string, Item> inventory;

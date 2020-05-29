@@ -36,7 +36,8 @@ void display_menu() {
 		"3) Display inventory.\n"
 		"4) Search for item.\n"
 		"5) Save current inventory to file (in JSON format).\n"
-		"6) Exit.\n\n";
+		"6) Load inventory. (file should be in JSON format).\n"
+		"7) Exit.\n\n";
 }
 
 
@@ -137,6 +138,34 @@ void save(Inventory& inven) {
 	out.close();
 }
 
+/* This function opens a file reader object and deletes the initialized
+   data. It then loads the data from desired file.
+   @params = inven : inventory that will store read data.
+*/
+void load(Inventory& inven) {
+	
+	// Empty current inventory so that no duplicate items are
+	// created.
+	inven.empty();
+
+	string file;
+	cout << "The file should be in the same directory.\n";
+	cout << "Enter the filename: ";
+	cin >> file;
+
+	std::ifstream in;
+	in.open(file, std::ios::in);
+
+	if (in.is_open()) {
+		inven.load(in);
+	}
+	else {
+		cout << "File was unable to be opened.\n";
+	}
+
+	in.close();
+}
+
 void run() {
 
 	welcome_message();
@@ -161,7 +190,9 @@ void run() {
 
 		case 5: save(inventory); continue;
 
-		case 6: running = false; continue;
+		case 6: load(inventory); continue;
+
+		case 7: running = false; continue;
 
 		default: cout << "Invalid choice. Try again.\n"; continue;
 		}
